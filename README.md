@@ -1,11 +1,13 @@
 # gulp-first
-Simple streaming object filter passes through only the first object received.
+Simple streaming object filter that passes through only the first object received.
+
+As a gulp plugin, this filter can be combined with `gulp-newer` and `gulp-exec`.
 
 ## install
 
     npm install -D gulp-first
 
-## useage (in a gulpfile)
+## use (in a gulpfile)
 
 ```javascript
 var gulp = require('gulp');
