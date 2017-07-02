@@ -1,0 +1,35 @@
+{
+  "name": "gulp-first",
+  "version": "1.0.0",
+  "description": "Simple streaming object filter passes through only the first object received",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BurtHarris/gulp-first.git"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "first",
+    "object",
+    "stream"
+  ],
+  "author": "Burt Harris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BurtHarris/gulp-first/issues"
+  },
+  "homepage": "https://github.com/BurtHarris/gulp-first#readme",
+  "dependencies": {
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.7",
+    "@types/through2": "^2.0.33",
+    "event-stream": "^3.3.4",
+    "mocha": "^3.4.2"
+  }
+}
