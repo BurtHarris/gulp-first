@@ -1,9 +1,6 @@
-# gulp-first
-Simple streaming object filter that passes through only the first object received.
+# gulp-first - pass-through only the first object in a stream
 
-As a gulp plugin, this filter can be combined with `gulp-newer` and `gulp-exec`.
-
-## install
+Used  combination with `gulp-newer`, this will pipe-through only the first file object if *any* of the files from a `gulp.src(...)` glob are newer than the target.  This can be useful with `gulp-exec` for many:1 build tasks where some external tool needs to be invoked if the target is out-of-date. 
 
     npm install -D gulp-first
 
