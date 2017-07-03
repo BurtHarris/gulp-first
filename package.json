@@ -1,14 +1,15 @@
 {
   "name": "gulp-first",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Simple streaming object filter passes through only the first object received",
   "main": "index.js",
   "scripts": {
-    "test": "standard && mocha"
+    "test": "standard && mocha",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BurtHarris/gulp-first.git"
+    "url": "https://github.com/BurtHarris/gulp-first.git"
   },
   "keywords": [
     "gulp",
@@ -31,6 +32,7 @@
     "@types/through2": "^2.0.33",
     "event-stream": "^3.3.4",
     "mocha": "^3.4.2",
-    "standard": "^10.0.2"
+    "standard": "^10.0.2",
+    "semantic-release": "^6.3.6"
   }
 }
