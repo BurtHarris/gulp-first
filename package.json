@@ -4,7 +4,7 @@
   "description": "Simple streaming object filter passes through only the first object received",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "standard && mocha"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
     "@types/node": "^8.0.7",
     "@types/through2": "^2.0.33",
     "event-stream": "^3.3.4",
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "standard": "^10.0.2"
   }
 }
