@@ -1,6 +1,6 @@
 {
   "name": "gulp-first",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple streaming object filter passes through only the first object received",
   "main": "index.js",
   "scripts": {
