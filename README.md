@@ -1,4 +1,4 @@
-
+[![npm version](https://badge.fury.io/js/gulp-first.svg)](https://badge.fury.io/js/gulp-first)
 [![Build Status](https://travis-ci.org/BurtHarris/gulp-first.svg?branch=master)](https://travis-ci.org/BurtHarris/gulp-first)
 [![GitHub issues](https://img.shields.io/github/issues/BurtHarris/gulp-first.svg)](https://github.com/BurtHarris/gulp-first/issues)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
