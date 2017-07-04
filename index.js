@@ -7,11 +7,10 @@ function first () {
   return through.obj(function (file, enc, cb) {
     if (isFirst) {
       isFirst = false
+      this.push(file)
       this.end()
-      cb(null, file)
-    } else {
-      cb()
     }
+    cb()
   })
 }
 
