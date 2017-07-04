@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "standard && mocha",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "preversion": "npm test"
   },
   "repository": {
     "type": "git",
