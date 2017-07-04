@@ -2,9 +2,16 @@ const through = require('through2') // through2 is a thin wrapperof  transform s
 
 // Plugin level function(dealing with files or any arbitrary object)
 function first () {
+  var isFirst = true
+
   return through.obj(function (file, enc, cb) {
-    this.end()
-    cb(null, file)
+    if (isFirst) {
+      isFirst = false
+      this.end()
+      cb(null, file)
+    } else {
+      cb()
+    }
   })
 }
 
