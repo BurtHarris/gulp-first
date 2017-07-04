@@ -8,7 +8,11 @@ function first () {
     if (isFirst) {
       isFirst = false
       this.push(file)
-      this.end()
+      // previously called this.end() here in an attempt 
+      // to optimize by letting earlier stages in pipeline
+      // know that no further input was desired.   This 
+      // lead to issue #1, so I'm opting for simple rather than
+      // optimal.
     }
     cb()
   })
